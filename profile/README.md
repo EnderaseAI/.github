@@ -1,37 +1,27 @@
+# Enderase - Legal Knowledge Chatbot
 
-# Enderase Legal Chatbot
-
-## Introduction
-
-Welcome to Enderase, your trusted legal information chatbot. Enderase is designed to provide you with accurate and context-aware answers to your legal queries. Whether you're an individual seeking legal guidance or a business owner navigating complex regulations, Enderase is here to assist you.
-
-## Purpose
-
-Enderase serves a vital purpose in democratizing legal knowledge and accessibility in Ethiopia and beyond. By leveraging cutting-edge Generative AI models, Enderase aims to make legal information easy to understand, low costy and readily available. It provides precise answers to legal questions, offers context from legal documents, and bridges the gap in legal knowledge for users.
+Welcome to the Enderase GitHub organization! This is the central hub for the Enderase project and its repositories. Enderase is a legal knowledge chatbot designed to provide accurate and context-aware answers to legal queries. Below, you'll find an overview of the repositories within this organization.
 
 ## Structure
 
-### Key Features
+The repository is structured as follows:
 
-Enderase is built on a robust technical foundation with the following key features:
+1. **Backend Repository:** The `backend` directory contains the backend code of the Enderase chatbot. This includes API endpoints, Generative AI models, and the Vector database (ChromaDB) for storing legal documents. Python and the Flask framework power this backend.
 
-- **Semantic Search:** Enderase utilizes semantic search techniques to understand user queries and search through a vector database of legal documents. This approach ensures that it finds the most relevant and contextually accurate information.
+2. **ReactApp Repository:** In the `ReactApp` directory, you'll find the frontend code for the Enderase chatbot. Implemented using JavaScript and React, this directory includes HTML, CSS, and JavaScript files for the user interface.
 
-- **Large Language Model (LLM):** Enderase leverages a powerful Large Language Model to interpret and process user questions in plain language. This results in a user-friendly experience, making legal information accessible to all.
+3. **FlutterApp Repository:** The `FlutterApp` repository contains the client app for Enderase, enhancing the mobile user experience. It is implemented using the Flutter framework.
 
-- **Contextual Responses:** Enderase goes beyond providing answers; it also supplies context. It extracts pertinent sections of legal texts, ensuring users fully comprehend the information provided and verifying the accuracy of responses.
+4. **TelegramBot Repository:** In the `TelegramBot` repository, you'll find the Telegram bot for Enderase. It is implemented using Node.js and the Telegraf library, allowing real-time interactions via the Telegram messaging platform.
 
-- **User Interface:** Our user-friendly interface, available on web and mobile platforms, makes it easy for users to interact with Enderase across various channels.
+5. **.github Repository:** The `.github` repository is used to display the README on the organization's homepage, providing an overview of the Enderase project and its repositories.
 
-## How Enderase Works
+## Purpose
 
-Enderase combines advanced AI technology with a user-friendly interface to provide unparalleled legal support:
+The purpose of this repository is to provide a collaborative space for the development and improvement of the Enderase chatbot. By making the repository publicly accessible, we aim to foster community engagement. Developers, contributors, and users can explore the codebase, report issues, and suggest enhancements, contributing to the growth of Enderase as a valuable legal knowledge resource.
 
-1. **User Interaction:** Users can interact with Enderase through an intuitive user interface or via Telegram bot.
+## How Generative AI Models are Solving the Problem
 
-2. **Query Understanding:** Enderase employs semantic search and LLM to understand user queries with precision and relevance.
+Enderase leverages Generative AI models to enhance its functionality, particularly in providing precise answers to legal queries. These models, including the `Palm's text-bison-001` model, have been fine-tuned to interpret and process user questions, ensuring accuracy and relevance. Additionally, the `Palm's embedding-gecko-001` model is used for creating vector embeddings, aiding in semantic search and contextual responses.
 
-3. **Legal Database:** It searches through a comprehensive database of legal documents using semantic search techniques.
-
-4. **Contextual Responses:** Enderase not only provides answers but also extracts relevant sections of legal texts to provide context and ensure clarity.
-
+By incorporating Generative AI models into Enderase, we enable users to access accurate legal information, with responses generated based on a deep understanding of legal documents. This advanced technology ensures that users receive meaningful and context-aware answers to their legal questions, simplifying legal research for professionals and individuals alike. Enderase's use of Generative AI models significantly enhances the precision and accessibility of legal knowledge.
