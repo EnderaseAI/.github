@@ -6,9 +6,9 @@ Welcome to the Enderase GitHub organization! This is the central hub for the End
 
 The repository is structured as follows:
 
-1. **Backend Repository:** The `backend` directory contains the backend code of the Enderase chatbot. This includes API endpoints, Generative AI models, and the Vector database (ChromaDB) for storing legal documents. Python and the Flask framework power this backend.
+1. **Backend Repository:** The `backend` repository contains the backend code of the Enderase chatbot. This includes API endpoints, Generative AI models, and the Vector database (ChromaDB) for storing legal documents. Python and the Flask framework power this backend.
 
-2. **ReactApp Repository:** In the `ReactApp` directory, you'll find the frontend code for the Enderase chatbot. Implemented using JavaScript and React, this directory includes HTML, CSS, and JavaScript files for the user interface.
+2. **ReactApp Repository:** In the `ReactApp` repository, you'll find the frontend code for the Enderase chatbot. Implemented using JavaScript and React, this repository also includes HTML, CSS, and JavaScript files for the user interface.
 
 3. **FlutterApp Repository:** The `FlutterApp` repository contains the client app for Enderase, enhancing the mobile user experience. It is implemented using the Flutter framework.
 
