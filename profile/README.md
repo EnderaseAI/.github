@@ -6,15 +6,17 @@ Welcome to the Enderase GitHub organization! This is the central hub for the End
 
 The repository is structured as follows:
 
-1. **Backend Repository:** The `backend` repository contains the backend code of the Enderase chatbot. This includes API endpoints, Generative AI models, and the Vector database (ChromaDB) for storing legal documents. Python and the Flask framework power this backend.
+1. **LLM-Server Repository:** The `LLM-Server` repository contains the backend code of the Enderase chatbot. This includes API endpoints, Generative AI models, and the Vector database (ChromaDB) for storing legal documents. Python and the Flask framework power this backend.
 
-2. **ReactApp Repository:** In the `ReactApp` repository, you'll find the frontend code for the Enderase chatbot. Implemented using JavaScript and React, this repository also includes HTML, CSS, and JavaScript files for the user interface.
+2. **Backend Repository:** The `backend` repository contains the backend code for Enderase User handling. This includes API endpoints for managing admins, users, conversations, and lawyer infomrations. It also includes an encapsulation of the LLM-Server inaddition to the Mongodb database for storing data related to users. Nodejs and Express using Typescript powers this server.
 
-3. **FlutterApp Repository:** The `FlutterApp` repository contains the client app for Enderase, enhancing the mobile user experience. It is implemented using the Flutter framework.
+3. **ReactApp Repository:** In the `ReactApp` repository, you'll find the frontend code for the Enderase chatbot. Implemented using JavaScript and React, this repository also includes HTML, CSS, and JavaScript files for the user interface.
 
-4. **TelegramBot Repository:** In the `TelegramBot` repository, you'll find the Telegram bot for Enderase. It is implemented using Node.js and the Telegraf library, allowing real-time interactions via the Telegram messaging platform.
+4. **FlutterApp Repository:** The `FlutterApp` repository contains the client app for Enderase, enhancing the mobile user experience. It is implemented using the Flutter framework.
 
-5. **.github Repository:** The `.github` repository is used to display the README on the organization's homepage, providing an overview of the Enderase project and its repositories.
+5. **TelegramBot Repository:** In the `TelegramBot` repository, you'll find the Telegram bot for Enderase. It is implemented using Node.js and the Telegraf library, allowing real-time interactions via the Telegram messaging platform.
+
+6. **.github Repository:** The `.github` repository is used to display the README on the organization's homepage, providing an overview of the Enderase project and its repositories.
 
 ## Purpose
 
