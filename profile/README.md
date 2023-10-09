@@ -18,6 +18,8 @@ The repository is structured as follows:
 
 6. **.github Repository:** The `.github` repository is used to display the README on the organization's homepage, providing an overview of the Enderase project and its repositories.
 
+> *You can see how our system works by visiting [here](https://app.eraser.io/workspace/o9obcdn3wqSffPlZJbwV?origin=share)*
+
 ## Purpose
 
 The purpose of this repository is to provide a collaborative space for the development and improvement of the Enderase chatbot. By making the repository publicly accessible, we aim to foster community engagement. Developers, contributors, and users can explore the codebase, report issues, and suggest enhancements, contributing to the growth of Enderase as a valuable legal knowledge resource.
